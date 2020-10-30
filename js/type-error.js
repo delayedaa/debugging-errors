@@ -7,6 +7,7 @@ RESOURCE: CHECK YOUR README 📖
 ****************************************************************************/
 
 // Error 1
+let fruit = document.getElementsByClassname('citrus');
 
 // Error 2
 

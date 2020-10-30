@@ -7,10 +7,34 @@ RESOURCE: CHECK YOUR README 📖
 ****************************************************************************/
 
 // Error 1
+// console.log('Does it work?' 100);
 
 // Error 2
+// 'use strict';
+
+// let object = {
+//   name: 'orange',
+//   shape: 'circle'
+// }
+
+// for (let i = 0 in object) {
+//   console.log(object[i]);
+// }
 
 // Error 3
+// function ifFunction() {
+//   if (4 * 4 > 10) {
+//     console.log('Yay!');
+//   } else {
+//     console.log('Boo!');
+// };
+
+var charge = function() {
+  if (sunny) {
+    useSolarCells();
+  } else {
+    promptBikeRide();
+};
 
 // Error 4
 

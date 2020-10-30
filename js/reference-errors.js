@@ -2,17 +2,17 @@
 // console.log(name); // ReferenceError: name is not defined
 
 // What went wrong here?
-console.log(foo.substring(1)) // ReferenceError: Cannot access 'foo' before initialization
-let foo = 'bar';
+// console.log(foo.substring(1)) // ReferenceError: Cannot access 'foo' before initialization
+// let foo = 'bar';
 
-// What's wrong here?
-function addNumbers() { 
-    let num1 = 2;
-    let num2 = 3;
-    return num1 + num2;
-  }
+// // What's wrong here?
+// function addNumbers() { 
+//     let num1 = 2;
+//     let num2 = 3;
+//     return num1 + num2;
+//   }
   
-  console.log(num1); // ReferenceError num1 is not defined.
+//   console.log(num1); // ReferenceError num1 is not defined.
 
 /****************************************************************************
 Make 3-5 different examples of reference errors. 
@@ -23,10 +23,28 @@ RESOURCE: CHECK THE README
 ****************************************************************************/
 
 // Error 1
+// function test() {
+//   'use strict';
+//   notVariable = 5 + 5;
+//   console.log(notVariable);
+// }
+
+// test();
 
 // Error 2
+// if (1 = 5) {
+//   console.log('It worked!')
+// }
 
 // Error 3
+// let object = {};
+
+// console.log(object.color);
+let test = 'hello';
+function monkey() {
+  let test = test + ' stranger';
+}
+monkey();
 
 // Error 4
 
